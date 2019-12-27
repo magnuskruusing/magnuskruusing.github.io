@@ -173,3 +173,9 @@
     height: auto;
     display: block;
 }
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 6px;
+}
