@@ -257,8 +257,8 @@ div.gallery button {
     padding-left: 470px;
     margin: 0; 
     position: absolute; 
-    bottom: 15%;
-    -ms-transform: translateY(-15%);
-    transform: translateY(-15%);
+    bottom: 25%;
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
 }
 
