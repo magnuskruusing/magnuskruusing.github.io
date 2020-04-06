@@ -1,0 +1,53 @@
+/*Body */
+@font-face {
+    font-family:sans-serif;
+    src: url(webfonts/helveticaneue.ttf);
+  }
+@media only screen and (min-width: 768px) {
+body{margin: 0px 200px;
+    background-color: #efefef;}
+}
+body{background-color: #efefef;
+font-family:sans-serif;}
+
+/*Kontakt*/
+.kontakt 
+{
+    color: #46b4de;
+    font-size: 20px;
+}
+
+/*Img*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Logo*/
+#logo {
+    text-align: center;
+    margin: 5% 0;
+}
+
+#logo img{
+    max-width: 50%;
+}
+
+/*Keeled*/
+.keeled {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap:25px;
+}
+.keeled img{
+    opacity: 0.6;
+}
+/*S6nad*/
+#s6nad {
+    margin: 5% 0;
+    font-size:24px;
+}
+
+#s6nad a {
+    padding: 0.5rem;
+}
