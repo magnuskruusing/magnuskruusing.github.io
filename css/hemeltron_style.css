@@ -1,0 +1,91 @@
+/*Font*/
+font-face {
+  font-family:sans-serif;
+  src: url(webfonts/helveticaneue.ttf);
+}
+
+/*Body */
+body {
+  font-family:sans-serif;
+  background-color: #f8f9fa;
+}
+
+.kast01 {
+  background-image: url(/img/taust.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.kast02 {
+  background-image: url(/img/taust2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: #707a83;
+  font-size: 1em;
+}
+
+nav a:hover{
+  color: #61abf5;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.tm01 {
+  font-weight: 550;
+}
+
+/************************
+#tm-mob {
+  background-color: #f8f9fa;;
+}
+****************************/
+.btn {
+  color: cornflowerblue;
+  font-size: 1.3em;
+  margin: 0.2em;
+}
+
+.kontakt {
+  margin: 0 0.1em;
+  color: #61abf5;
+}
+
+.kontakt a {
+  margin: 0 0.1em;
+  color: #61abf5;
+}
+
+.sisu01 {
+  margin-bottom: 5em;
+}
+.sisu01 h1 {
+color:#61abf5;
+}
+
+.carousel{
+  margin-top: 60px;
+}
+.carousel-inner{
+  height: 100px;
+}
+.carousel-caption{
+  color: #707a83;
+  padding-top: 38px;
+  top: 50%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.teenused {
+  font-size: ;
+  background-color: rgb(235, 235, 235);
+  color: #555555;
+  margin: 0.5em 0;
+}
