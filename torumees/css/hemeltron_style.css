@@ -1,7 +1,7 @@
 /*Font*/
 font-face {
   font-family:sans-serif;
-  src: url(webfonts/helveticaneue.ttf);
+  src: url(/torumees/webfonts/helveticaneue.ttf);
 }
 
 /*Body */
@@ -11,14 +11,14 @@ body {
 }
 
 .kast01 {
-  background-image: url(/img/taust.jpg);
+  background-image: url(/torumees/img/taust.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 .kast02 {
-  background-image: url(/img/taust2.jpg);
+  background-image: url(/torumees/img/taust2.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
