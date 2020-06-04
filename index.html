@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Magnus Kruusing</title>
+		<meta name="description" content="Graphic Designer" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="codrops-header">
+				<h1>Magnus Kruusing <span>Graphic Designer</span></h1>	
+				<nav class="codrops-demos">
+					<a href="https://www.facebook.com/lennykravitz" target="_blank" class="fa fa-facebook fa-lg"></a>
+                    <a href="https://www.instagram.com/lennykravitz/" target="_blank" class="fa fa-instagram fa-lg"></a>
+				</nav>
+			</header>
+			<section class="grid-wrap">
+				<ul class="grid swipe-down" id="grid">
+					<li class="title-box">
+						<h2>Portfolio</h2>
+					</li>
+					<li onclick="openModal();currentSlide(1)"><a href="#"><img src="img/ikoonid/magazine.jpg" alt="Magazine cover"><h3>Magazine cover</h3></a></li>
+					<li onclick="openModal();currentSlide(2)"><a href="#"><img src="img/ikoonid/coin.jpg" alt="Collectors coin"><h3>Collectors coin</h3></a></li>
+					<li onclick="openModal();currentSlide(3)"><a href="#"><img src="img/ikoonid/label.jpg" alt="Label"><h3>Syrup label</h3></a></li>
+					<li onclick="openModal();currentSlide(4)"><a href="#"><img src="img/ikoonid/movieposter.jpg" alt="Movie poster"><h3>Movie poster</h3></a></li>
+					<li onclick="openModal();currentSlide(5)"><a href="#"><img src="img/ikoonid/collage.jpg" alt="Collage"><h3>Collage</h3></a></li>
+					<li onclick="openModal();currentSlide(6)"><a href="#"><img src="img/ikoonid/book.jpg" alt="Book cover"><h3>Book cover</h3></a></li>
+					<li onclick="openModal();currentSlide(7)"><a href="#"><img src="img/ikoonid/3D.jpg" alt="3D models"><h3>3D models</h3></a></li>
+					<li><a href="https://magnuskruusing.github.io/lenny/index.html" target="_blank"><img src="img/ikoonid/lenny.jpg" alt="Webpage #1"><h3>Webpage #1</h3></a></li>
+					<li><a href="https://akupaagid.ee" target="_blank"><img src="img/ikoonid/akupaagid.jpg" alt="Webpage #2"><h3>Webpage #2</h3></a></li>
+					<li><a href="https://magnuskruusing.github.io/torumees/" target="_blank"><img src="img/ikoonid/torumees.jpg" alt="Webpage #3"><h3>Webpage #3</h3></a></li>
+					<li><a href="https://hemeltron.ee/" target="_blank"><img src="img/ikoonid/hemeltron.jpg" alt="Webpage #4"><h3>Webpage #4</h3></a></li>
+				</ul>
+			</section>
+		</div><!-- /container -->
+
+		<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="caption-container">
+			<h2>Magazine cover</h2>
+			<p>School project made with Adobe Photoshop</p>
+		  </div>
+		<img src="img/jpg/magazine.jpg" style="width:100%;height: auto;">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="caption-container">
+			<h2>Collectors coin</h2>
+			<p>Olympic Games collectors coin made with Adobe Photoshop</p>
+		  </div>
+		<img src="img/jpg/coin.jpg" style="width:100%;height: auto;">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="caption-container">
+			<h2>Syrup label</h2>
+			<p>Label design for chokeberry syrup, made with Adobe Illustrator</p>
+		  </div>
+		<img src="img/jpg/lable.jpg" style="width:100%;height: auto;">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="caption-container">
+			<h2>Movie poster</h2>
+			<p>School project made with Adobe Illustrator</p>
+		  </div>
+		<img src="img/jpg/movieposters.jpg" style="width:100%;height: auto;">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="caption-container">
+			<h2>Collage</h2>
+			<p>School project made with Adobe Illustrator</p>
+		  </div>
+		<img src="img/jpg/collage.jpg" style="width:100%;height: auto;">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="caption-container">
+			<h2>Book cover</h2>
+			<p>School project made with Adobe Illustrator</p>
+		  </div>
+		<img src="img/jpg/book.jpg" style="width:100%;height: auto;">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="caption-container">
+			<h2>3D models</h2>
+			<p>School project made with Blender</p>
+		  </div>
+		<img src="img/jpg/3D.jpg" style="width:100%;height: auto;">
+	  </div>
+  
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+
+	</div>
+  </div>
+
+
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/colorfinder-1.1.js"></script>
+		<script src="js/gridScrollFx.js"></script>
+		<script>
+			new GridScrollFx( document.getElementById( 'grid' ), {
+				viewportFactor : 0.4
+			} );
+		</script>
+		<script>
+			// Open the Modal
+			function openModal() {
+			  document.getElementById("myModal").style.display = "block";
+			}
+			
+			// Close the Modal
+			function closeModal() {
+			  document.getElementById("myModal").style.display = "none";
+			}
+			
+			var slideIndex = 1;
+			showSlides(slideIndex);
+			
+			// Next/previous controls
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+			
+			// Thumbnail image controls
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+			
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("demo");
+			  var captionText = document.getElementById("caption");
+			  if (n > slides.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			  captionText.innerHTML = dots[slideIndex-1].alt;
+			}
+			</script>
+	</body>
+</html>
